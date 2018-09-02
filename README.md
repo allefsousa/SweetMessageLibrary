@@ -1,8 +1,10 @@
 Sweet Alert Dialog
 ===================
-SweetAlert for Android, a beautiful and clever alert dialog
+SweetAlert for Android, a beautiful and clever alert dialog 
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sweet%20Alert%20Dialog-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1065)
+[![JitPack](https://jitpack.io/v/allefsousa/SweetMessageLibrary.svg)](https://jitpack.io/#allefsousa/SweetMessageLibrary)
+
 
 [中文版](https://github.com/pedant/sweet-alert-dialog/blob/master/README.zh.md)
 
@@ -27,12 +29,14 @@ The simplest way to use SweetAlertDialog is to add the library as aar dependency
 
 **Gradle**
 
+
     repositories {
-        mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
+	
 
     dependencies {
-        compile 'cn.pedant.sweetalert:library:1.3'
+       implementation 'com.github.allefsousa:SweetMessageLibrary:1.0.5'
     }
 
 ## Usage
