@@ -160,7 +160,7 @@
             android:minLines="1"
             android:maxLength="1000"
             android:textColor="?attr/sweet_alert_content_text_color"
-            android:textSize="15sp"
+            android:textSize="16sp"
             android:visibility="gone"
             tools:text="message \n message "
             tools:visibility="visible" />
